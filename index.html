@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocotala - Chocobombas Artesanales</title>
+    <meta name="description"
+        content="Chocobombas artesanales premium. Sumérgete en una experiencia de sabor única con Chocotala.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader-logo">
+            <img src="assets/logo.png" alt="Logo de Chocotala">
+            <div class="loader-text">
+                <span class="logo-title">CHOCO<span class="gold-text">TALA</span></span>
+                <span class="logo-subtitle">CHOCOBOMBAS ARTESANALES</span>
+            </div>
+        </div>
+        <div class="loader-bar"></div>
+    </div>
+
+
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Logo de Chocotala" class="logo-img">
+                <div class="logo-text-wrapper">
+                    <span class="logo-title">CHOCO<span class="gold-text">TALA</span></span>
+                    <span class="logo-subtitle">CHOCOBOMBAS ARTESANALES</span>
+                </div>
+            </a>
+            <nav class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#experiencia">La Experiencia</a>
+                <a href="#productos">Chocobombas</a>
+                <a href="#contacto" class="btn btn-outline-gold">Pedir Ahora</a>
+            </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Showcase Hero Section -->
+        <section id="inicio" class="hero-showcase">
+            <div class="hero-showcase-bg"></div>
+            <div class="container showcase-container">
+                <div class="showcase-content">
+                    <div class="hero-cta">
+                        <a href="#productos" class="btn btn-gold btn-large">Ver Colección</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experiencia" class="section experience">
+            <div class="container section-container">
+                <div class="section-text text-center">
+                    <h2 class="section-title">La Experiencia Chocotala</h2>
+                    <p class="section-desc">Elaboradas a mano con el más fino chocolate y rellenas de magia. Preparar
+                        una Chocotala es un ritual diseñado para enamorarte.</p>
+                </div>
+
+                <div class="steps-grid">
+                    <div class="step-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="step-num">01</div>
+                        <i class="fas fa-mug-hot step-icon"></i>
+                        <h3>Colócala</h3>
+                        <p>Pon tu chocobomba favorita en el fondo de tu taza preferida.</p>
+                    </div>
+                    <div class="step-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="step-num">02</div>
+                        <i class="fas fa-droplet step-icon"></i>
+                        <h3>Vierte</h3>
+                        <p>Báñala con leche muy caliente y observa cómo la magia sucede lentamente.</p>
+                    </div>
+                    <div class="step-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="step-num">03</div>
+                        <i class="fas fa-star step-icon"></i>
+                        <h3>Disfruta</h3>
+                        <p>Revuelve y deléitate con malvaviscos fundidos y chocolate premium.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Showcase -->
+        <section id="productos" class="section products bg-dark">
+            <div class="container section-container">
+                <div class="section-text text-center light-text">
+                    <h2 class="section-title">Nuestra Selección</h2>
+                    <p class="section-desc">Cada chocobomba es una obra de arte comestible. Conoce nuestros sabores más
+                        vendidos.</p>
+                </div>
+
+                <div class="products-carousel">
+                    <!-- Product 1: Gourmet -->
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="assets/chocobomba_gourmet.png" alt="Chocobomba Gourmet" class="product-img">
+                            <div class="product-overlay">
+                                <span class="tag">Más Popular</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Clásica Gourmet</h3>
+                            <p>Chocolate exquisito 70% cacao con un interior repleto de malvaviscos que se funden al
+                                contacto con la leche caliente.</p>
+                            <div class="product-action">
+                                <span class="price">$15.000 / und</span>
+                                <button class="btn btn-gold btn-sm add-to-cart" data-id="gourmet"
+                                    data-name="Clásica Gourmet" data-price="15000"
+                                    data-img="assets/chocobomba_gourmet.png">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2: Cumpleaños -->
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="assets/chocobomba_cumpleanos.png" alt="Chocobomba Feliz Cumpleaños"
+                                class="product-img">
+                            <div class="product-overlay">
+                                <span class="tag"
+                                    style="background-color: var(--color-chocolate); border: 1px solid var(--color-gold);">Celebración</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Feliz Cumpleaños</h3>
+                            <p>¡El regalo perfecto! Decorada con detalles festivos, lista para sorprender al cumpleañero
+                                con una explosión de sabor.</p>
+                            <div class="product-action">
+                                <span class="price">$15.000 / und</span>
+                                <button class="btn btn-gold btn-sm add-to-cart" data-id="cumple"
+                                    data-name="Feliz Cumpleaños" data-price="15000"
+                                    data-img="assets/chocobomba_cumpleanos.png">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3: San Valentín -->
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="assets/chocobomba_san_valentin.png" alt="Chocobomba San Valentín"
+                                class="product-img">
+                            <div class="product-overlay">
+                                <span class="tag">Amor</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Amor y Amistad</h3>
+                            <p>Detalles románticos en una esfera de chocolate con leche, ideal para enamorar y derretir
+                                corazones.</p>
+                            <div class="product-action">
+                                <span class="price">$15.000 / und</span>
+                                <button class="btn btn-gold btn-sm add-to-cart" data-id="sanvalentin"
+                                    data-name="Amor y Amistad" data-price="15000"
+                                    data-img="assets/chocobomba_san_valentin.png">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4: Grado -->
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="assets/chocobomba_grado.png" alt="Chocobomba Graduación" class="product-img">
+                            <div class="product-overlay">
+                                <span class="tag"
+                                    style="background-color: var(--color-chocolate); border: 1px solid var(--color-gold);">Logro</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Especial Graduación</h3>
+                            <p>Celebra ese gran logro académico con una dulce sorpresa temática. Un detalle inolvidable
+                                para el profesional.</p>
+                            <div class="product-action">
+                                <span class="price">$15.000 / und</span>
+                                <button class="btn btn-gold btn-sm add-to-cart" data-id="grado"
+                                    data-name="Especial Graduación" data-price="15000"
+                                    data-img="assets/chocobomba_grado.png">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 5: Revelación Género -->
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="assets/chocobomba_genero.png" alt="Chocobomba Revelación de Género"
+                                class="product-img">
+                            <div class="product-overlay">
+                                <span class="tag">Especial</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Revelación de Género</h3>
+                            <p>¿Niño o niña? Descúbrelo cuando el chocolate se derrita revelando dulces sorpresas de
+                                color sorpresa.</p>
+                            <div class="product-action">
+                                <span class="price">$15.000 / und</span>
+                                <button class="btn btn-gold btn-sm add-to-cart" data-id="genero"
+                                    data-name="Revelación Género" data-price="15000"
+                                    data-img="assets/chocobomba_genero.png">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 6: Fútbol -->
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="assets/chocobomba_futbol.png" alt="Chocobomba Fútbol" class="product-img">
+                            <div class="product-overlay">
+                                <span class="tag"
+                                    style="background-color: var(--color-chocolate); border: 1px solid var(--color-gold);">Mundial</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Pasión Futbolera</h3>
+                            <p>Para los más hinchas. Una deliciosa chocobomba temática para disfrutar mientras ves jugar
+                                a tu equipo favorito.</p>
+                            <div class="product-action">
+                                <span class="price">$15.000 / und</span>
+                                <button class="btn btn-gold btn-sm add-to-cart" data-id="futbol"
+                                    data-name="Pasión Futbolera" data-price="15000"
+                                    data-img="assets/chocobomba_futbol.png">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 7: Navidad -->
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="assets/chocobombas-navidad.png" alt="Chocobombas Navideñas" class="product-img">
+                            <div class="product-overlay">
+                                <span class="tag">Temporada</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Edición Navideña</h3>
+                            <p>Magia festiva en cada taza. Diseños encantadores de época, llenos del mejor sabor
+                                tradicional.</p>
+                            <div class="product-action">
+                                <span class="price">$15.000 / und</span>
+                                <button class="btn btn-gold btn-sm add-to-cart" data-id="navidad"
+                                    data-name="Edición Navideña" data-price="15000"
+                                    data-img="assets/chocobombas-navidad.png">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom-design-banner"
+                    style="margin-top: 4rem; padding: 2.5rem; border: 1px dashed rgba(200, 154, 88, 0.4); border-radius: 16px; text-align: center;">
+                    <h3
+                        style="color: var(--color-gold); font-size: 1.5rem; margin-bottom: 0.5rem; font-family: var(--font-heading);">
+                        ¿Tienes un diseño en mente?</h3>
+                    <p style="color: var(--color-bg); font-size: 1.1rem; margin-bottom: 1.5rem; opacity: 0.9;">
+                        Si buscas una chocobomba con un diseño específico y no lo encuentras en nuestro catálogo,
+                        <strong>escríbenos y con gusto lo haremos realidad para ti.</strong>
+                    </p>
+                    <a href="https://wa.me/573223909876?text=Hola%20Chocotala,%20me%20gustar%C3%ADa%20saber%20si%20pueden%20hacer%20un%20dise%C3%B1o%20especial%20de..."
+                        class="btn btn-outline-gold" style="color: #c89a58;" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Cuéntanos tu idea
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="section testimonials">
+            <div class="container section-container">
+                <div class="section-text text-center">
+                    <h2 class="section-title">Lo que dicen de nosotros</h2>
+                    <p class="section-desc">Testimonios de amantes del chocolate que ya vivieron la magia.</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card fade-in-on-scroll">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review">"¡Absolutamente deliciosas! La sorpresa al derretirse es increíble y el sabor
+                            es de lo mejor que he probado."</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <span>M</span>
+                            </div>
+                            <h4>María G.</h4>
+                            <p>Cliente Verificada</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card fade-in-on-scroll">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review">"Compré los diseños navideños para regalar y fueron un éxito total. La
+                            presentación y el detalle son nivel premium."</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <span>C</span>
+                            </div>
+                            <h4>Carlos J.</h4>
+                            <p>Cliente Frecuente</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card fade-in-on-scroll">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review">"¡Una experiencia mágica y deliciosa! El chocolate es de altísima calidad y la
+                            sorpresa de los malvaviscos lo hace aún más especial. 100% recomendado."</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <span>A</span>
+                            </div>
+                            <h4>Andrea V.</h4>
+                            <p>Cliente Verificada</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA / Contact Section -->
+        <section id="contacto" class="section cta-section">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>¿Listo para sorprender?</h2>
+                    <p>Perfectas para regalos, eventos o simplemente para consentirte.
+                        <strong>¿No encuentras el diseño que buscas? ¡Escríbenos y te lo mandamos a hacer!</strong>
+                    </p>
+                    <a href="https://wa.me/573223909876" class="btn btn-gold btn-large" target="_blank">Pedir por
+                        WhatsApp</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <img src="assets/logo.png" alt="Logo de Chocotala" class="logo-img">
+                    <div class="logo-text-wrapper">
+                        <span class="logo-title">CHOCO<span class="gold-text">TALA</span></span>
+                        <span class="logo-subtitle">CHOCOBOMBAS ARTESANALES</span>
+                    </div>
+                </a>
+                <p>Chocobombas artesanales hechas con amor y pasión.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/chocotala.chocolate" target="_blank">IG</a>
+                    <a href="https://wa.me/573223909876" target="_blank">WA</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Chocotala. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Cart Button -->
+    <div class="floating-cart" id="floating-cart">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-badge" id="cart-badge">0</span>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Tu Pedido</h3>
+            <button class="close-cart" id="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Items injected by JS -->
+            <div class="empty-cart-msg">Tu carrito está vacío</div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-promo-banner" id="cart-promo-banner"
+                style="background-color: rgba(200, 154, 88, 0.1); color: var(--color-chocolate); padding: 0.8rem; border-radius: 8px; margin-bottom: 1rem; text-align: center; font-size: 0.85rem; font-weight: 500; border: 1px dashed var(--color-gold);">
+                ¡Pide 4 o más y el <strong>domicilio es GRATIS</strong>! 🛵
+            </div>
+            <div class="cart-subtotal"
+                style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; color: #666; font-size: 0.9rem;">
+                <span>Subtotal:</span>
+                <span id="cart-subtotal-price">$0.00</span>
+            </div>
+            <div class="cart-discount" id="cart-discount-row"
+                style="display: none; justify-content: space-between; margin-bottom: 0.5rem; color: #4CAF50; font-size: 0.9rem; font-weight: bold;">
+                <span>Descuento Volumen:</span>
+                <span id="cart-discount-price">-$0</span>
+            </div>
+            <div class="cart-delivery"
+                style="display: flex; justify-content: space-between; margin-bottom: 1rem; color: #666; font-size: 0.9rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(193, 155, 108, 0.2);">
+                <span>Domicilio:</span>
+                <span id="cart-delivery-price">$8.000</span>
+            </div>
+            <div class="cart-total" style="font-weight: bold; font-size: 1.2rem; margin-bottom: 1.5rem;">
+                <span>Total estimado:</span>
+                <span id="cart-total-price">$0.00</span>
+            </div>
+            <button class="btn btn-gold btn-full checkout-btn" id="checkout-btn">
+                <i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+            </button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
