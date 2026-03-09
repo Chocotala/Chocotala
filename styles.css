@@ -262,7 +262,7 @@ h4,
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 0;
+    padding: 1rem 0;
     z-index: 1000;
     transition: var(--transition);
     background: transparent;
@@ -271,7 +271,7 @@ h4,
 .navbar.scrolled {
     background: rgba(253, 251, 247, 0.95);
     backdrop-filter: blur(10px);
-    padding: 1.2rem 0;
+    padding: 0.8rem 0;
     box-shadow: var(--shadow-soft);
 }
 
@@ -289,7 +289,7 @@ h4,
 }
 
 .logo-img {
-    height: 45px;
+    height: 40px;
     /* Slightly smaller on mobile to fit */
     width: auto;
     object-fit: contain;
@@ -297,7 +297,7 @@ h4,
 
 @media (min-width: 768px) {
     .logo-img {
-        height: 60px;
+        height: 50px;
     }
 }
 
@@ -310,7 +310,7 @@ h4,
 
 .logo-title {
     font-family: var(--font-heading);
-    font-size: 2rem;
+    font-size: 1.5rem;
     /* Scaled down for mobile */
     line-height: 1;
     color: var(--color-chocolate);
@@ -320,7 +320,7 @@ h4,
 
 @media (min-width: 768px) {
     .logo-title {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         letter-spacing: 2px;
     }
 }
@@ -339,14 +339,14 @@ h4,
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 .nav-links a {
     text-decoration: none;
     color: var(--color-text);
     font-weight: 500;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     position: relative;
     transition: var(--transition);
 }
@@ -1374,4 +1374,51 @@ h4,
     font-size: 1.1rem;
     padding: 1.2rem;
     border-radius: 12px;
+}
+
+/* Photography Section */
+.photography-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.photography-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.star-product-box {
+    background-color: var(--color-dark);
+    color: var(--color-bg);
+    padding: 4rem;
+    border-radius: 24px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 992px) {
+    .photography-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .photography-services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .star-product-box {
+        flex-direction: column;
+        padding: 2.5rem;
+        text-align: left;
+    }
 }
